@@ -1,0 +1,41 @@
+
+.animate-text {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .animate-img {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .animate-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .animate-btn {
+    transition: all 0.3s ease-in-out;
+  }
+  .animate-btn:hover {
+    transform: translateY(-3px);
+  }
+  
+ 
+  .feature-card {
+    border-left: 5px solid #198754;
+    transition: transform 0.3s ease-in-out;
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+ 
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
